@@ -19,5 +19,4 @@ class Genre
     @songs.collect {|song| song.artist}
   end
 
-
 end
