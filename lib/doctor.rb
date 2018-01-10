@@ -9,6 +9,7 @@ class Doctor
 
   def add_appointment(date, appointment)
     @appointments << appointment
+    appointment.date = date
     appointment.doctor = self
   end
 
