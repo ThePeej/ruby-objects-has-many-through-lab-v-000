@@ -19,5 +19,4 @@ class Patient
     @appointments.collect {|appointment| appointment.doctor}
   end
 
-
 end
