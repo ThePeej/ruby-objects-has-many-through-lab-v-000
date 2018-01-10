@@ -8,5 +8,4 @@ class Appointment
     doctor.add_apointment(self)
   end
 
-
 end
